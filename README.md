@@ -2,7 +2,7 @@
 > **Production-Grade Multi-Site Network Design & OCI MongoDB Replica Set Architecture**
 
 > [!NOTE]  
-> **Academic Project Status**: This repository is an ongoing university project. Please note that **TicoHost Colocation S.A.** and **JobBridge** are fictional entities created solely for academic and demonstration purposes. High Availability (HA) clustering via **Corosync** and **Pacemaker** for virtual machine orchestration is currently pending implementation in an upcoming milestone.
+> **Academic Project Status**: This repository is an ongoing university project. Please note that **TicoHost Colocation S.A.** and **JobBridge** are fictional entities created solely for academic and demonstration purposes. High Availability (HA) clustering via **Corosync** and **Pacemaker** for virtual machine orchestration is currently pending implementation in an upcoming milestone. Completion is expected on August.
 
 ---
 
