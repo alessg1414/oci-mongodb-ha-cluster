@@ -6,8 +6,6 @@
 
 ---
 
----
-
 ## Executive Summary
 
 This repository presents the architecture, implementation, and failover validation for a resilient **High Availability (HA) and Disaster Recovery (DR)** infrastructure designed for high-concurrency database workloads. Taking the production environment of **TicoHost Colocation S.A.** as an enterprise baseline, this project demonstrates zero-data-loss database replication, dynamic leader election, and multi-site network redundancy.
