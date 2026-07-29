@@ -1,6 +1,9 @@
 # Enterprise High Availability (HA) & Disaster Recovery (DR) Infrastructure
 > **Production-Grade Multi-Site Network Design & OCI MongoDB Replica Set Architecture**
 
+> [!NOTE]  
+> **Academic Project Status**: This repository is an ongoing university project. High Availability (HA) clustering via **Corosync** and **Pacemaker** for virtual machine orchestration is currently pending implementation in an upcoming milestone.
+
 ---
 
 ## Executive Summary
