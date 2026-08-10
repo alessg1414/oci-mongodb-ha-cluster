@@ -78,9 +78,9 @@ The architecture underwent empirical disruption testing to validate failover cap
 
 This project was engineered and documented by the following infrastructure engineering team:
 
-* **Alessandro Garita Guevara**: OCI Core Infrastructure, VCN & Security Architecture, System Design, Quorum Configuration.
-* **Javier Núñez Sánchez**: Enterprise Packet Tracer Network Topology, BGP/OSPF Full-Mesh Routing.
-* **Marco Ramírez Acuña**: MongoDB Replica Set Clustering, Failover Runbook Execution.
+* **[Alessandro Garita Guevara](https://github.com/alessg1414)**: OCI Core Infrastructure, VCN & Security Architecture, System Design, Quorum Configuration.
+* **[Javier Núñez Sánchez](https://github.com/aleNu93)**: Enterprise Packet Tracer Network Topology, BGP/OSPF Full-Mesh Routing.
+* **[Marco Ramírez Acuña](https://github.com/jolicoton)**: MongoDB Replica Set Clustering, Failover Runbook Execution.
 
 ---
 *For detailed setup instructions, network configuration parameters, and runbooks, refer to the [`docs/`](./docs) directory.*
