@@ -2,7 +2,7 @@
 > **Production-Grade Multi-Site Network Design, OCI MongoDB Replica Set & Corosync/Pacemaker Application Clustering**
 
 > [!NOTE]  
-> **Academic Project Status**: This repository is an ongoing university project. Please note that **TicoHost Colocation S.A.** and **JobBridge** are fictional entities created solely for academic and demonstration purposes. Application-layer High Availability clustering via **Corosync** and **Pacemaker**, including cloud-native VIP failover, has been implemented and empirically validated. See [Section: Verified Failover Test Results](#verified-failover-test-results) and [`docs/05-pacemaker-corosync-vip.md`](./docs/05-pacemaker-corosync-vip.md) for full detail.
+> **Academic Project Status**: This repository is a finished university project. Please note that **TicoHost Colocation S.A.** and **JobBridge** are fictional entities created solely for academic and demonstration purposes. Application-layer High Availability clustering via **Corosync** and **Pacemaker**, including cloud-native VIP failover, has been implemented and empirically validated. See [Section: Verified Failover Test Results](#verified-failover-test-results) and [`docs/05-pacemaker-corosync-vip.md`](./docs/05-pacemaker-corosync-vip.md) for full detail.
 
 ---
 
@@ -56,6 +56,8 @@ This repository documents **strictly completed and verified technical milestones
 * **Tier III Physical Infrastructure Baseline**: Designed a dual-data-center physical architecture (Cartago Primary & Heredia DR) utilizing redundant Caterpillar diesel generators, APC Symmetra A/B power distribution units, and Vertiv CRAC cooling systems.
 * **Carrier-Grade Routing & Switching**: Implemented a full-mesh WAN topology across four edge routers running **BGP Multihoming** and **OSPF dynamic routing**.
 * **Switching Redundancy**: Applied **Rapid Spanning Tree Protocol (RSTP)** and **LACP EtherChannel** across Catalyst Core and Distribution switches to eliminate Layer 2 single points of failure.
+* **Gateway Redundancy**: Configured **HSRP** across both Core switches at each site, providing a virtual gateway IP with automatic active/standby failover and preempt-based failback.
+* Full device-level configuration is documented in [`docs/06-network-topology-packet-tracer.md`](./docs/06-network-topology-packet-tracer.md).
 
 ---
 
@@ -113,6 +115,7 @@ This project was engineered and documented by the following infrastructure engin
 | [`03-ha-testing-runbook.md`](./docs/03-ha-testing-runbook.md) | Formal MongoDB failover/failback test procedures and results. |
 | [`04-disaster-recovery.md`](./docs/04-disaster-recovery.md) | Backup, archival, and cold-restoration runbooks. |
 | [`05-pacemaker-corosync-vip.md`](./docs/05-pacemaker-corosync-vip.md) | Corosync/Pacemaker cluster bring-up, cloud-native VIP integration, and application-layer failover test results. |
+| [`06-network-topology-packet-tracer.md`](./docs/06-network-topology-packet-tracer.md) | Full dual-site network build: VLANs, EtherChannel, RSTP, OSPF, HSRP, and DHCP, device by device. |
 
 ---
 *For detailed setup instructions, network configuration parameters, and runbooks, refer to the [`docs/`](./docs) directory.*
