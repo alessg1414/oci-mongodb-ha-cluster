@@ -57,7 +57,7 @@ This repository documents **strictly completed and verified technical milestones
 * **Carrier-Grade Routing & Switching**: Implemented a full-mesh WAN topology across four edge routers running **BGP Multihoming** and **OSPF dynamic routing**.
 * **Switching Redundancy**: Applied **Rapid Spanning Tree Protocol (RSTP)** and **LACP EtherChannel** across Catalyst Core and Distribution switches to eliminate Layer 2 single points of failure.
 * **Gateway Redundancy**: Configured **HSRP** across both Core switches at each site, providing a virtual gateway IP with automatic active/standby failover and preempt-based failback.
-* Full device-level configuration is documented in [`docs/06-network-topology-packet-tracer.md`](./docs/06-network-topology-packet-tracer.md).
+* Full device-level configuration is documented in [`docs/06-network-topology-packet-tracer.md`](./docs/06-network-topology-packet-tracer.md). The original simulation file is available at [`topology/TicoHost_HATopology.pkt`](./topology/TicoHost_HATopology.pkt) (requires [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) to open).
 
 ---
 
@@ -116,6 +116,7 @@ This project was engineered and documented by the following infrastructure engin
 | [`04-disaster-recovery.md`](./docs/04-disaster-recovery.md) | Backup, archival, and cold-restoration runbooks. |
 | [`05-pacemaker-corosync-vip.md`](./docs/05-pacemaker-corosync-vip.md) | Corosync/Pacemaker cluster bring-up, cloud-native VIP integration, and application-layer failover test results. |
 | [`06-network-topology-packet-tracer.md`](./docs/06-network-topology-packet-tracer.md) | Full dual-site network build: VLANs, EtherChannel, RSTP, OSPF, HSRP, and DHCP, device by device. |
+| [`topology/TicoHost_HATopology.pkt`](./topology/TicoHost_HATopology.pkt) | Cisco Packet Tracer simulation file — the live, importable topology described in document 06. |
 
 ---
 *For detailed setup instructions, network configuration parameters, and runbooks, refer to the [`docs/`](./docs) directory.*
