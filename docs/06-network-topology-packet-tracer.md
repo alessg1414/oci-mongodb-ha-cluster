@@ -8,6 +8,8 @@ This document details the complete Layer 2/Layer 3 network configuration impleme
 
 This tier is independent from — and complementary to — the OCI-hosted MongoDB Replica Set and Corosync/Pacemaker application clustering documented in `01-architecture.md` and [`05-pacemaker-corosync-vip.md`](./05-pacemaker-corosync-vip.md). Where those layers provide compute and database-level resilience, this network model demonstrates redundancy at the physical infrastructure and routing/switching layer expected of a Tier III colocation facility.
 
+> The live, importable simulation file is available at [`topology/TicoHost_HATopology.pkt`](../topology/TicoHost_HATopology.pkt). Opening it requires [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
+
 ---
 
 ## 2. Site Architecture
